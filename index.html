@@ -1,1 +1,275 @@
-PLACEHOLDER_TOO_LARGE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luna Sol & The Supernovas | Cosmic Rock Rebellion</title>
+  <meta name="description" content="Luna Sol & The Supernovas — the cosmic heartbeat of SHD Studios. Cosmic rebellion, forbidden love, and music that shatters the static. Stream the rock operas, join Portal to Nowhere 2026." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Starfield canvas -->
+  <canvas id="stars"></canvas>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="#home" class="logo-link">
+        <img src="assets/logo.jpg" alt="Luna Sol & The Supernovas" class="nav-logo" />
+      </a>
+      <nav class="main-nav" id="mainNav">
+        <a href="#home">Home</a>
+        <a href="#about">The Band</a>
+        <a href="#music">Music</a>
+        <a href="#portal">Portal to Nowhere</a>
+        <a href="#merch">Merch</a>
+        <a href="#connect">Connect</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <div class="hero-bg" style="background-image: url('assets/hero-bg.jpg')"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <img src="assets/logo.jpg" alt="Luna Sol & The Supernovas Logo" class="hero-logo" />
+        <p class="tagline">Cosmic Rebellion · Forbidden Love · Music That Shatters the Static</p>
+        <div class="hero-ctas">
+          <a href="https://open.spotify.com/artist/4cQa4Ys2KmhkOLBs4VK7g3" target="_blank" rel="noopener" class="btn btn-primary">Stream Now</a>
+          <a href="#portal" class="btn btn-secondary">Portal to Nowhere 2026</a>
+        </div>
+        <p class="hero-sub">The beating heart of the SHD Studios multiverse</p>
+      </div>
+      <div class="scroll-indicator">
+        <span></span>
+      </div>
+    </section>
+
+    <!-- Latest Release -->
+    <section class="latest-release">
+      <div class="container">
+        <div class="release-card">
+          <div class="release-badge">Latest Release</div>
+          <h2>Jupiter's Debt on a Scarlet Sun</h2>
+          <p class="release-sub">(What Their Love Had Won)</p>
+          <p class="release-desc">The official anthem for <em>Luna: Defiant Wings of the Longbeards</em>. Cosmic love, divine debt, and rebellion that burns across the stars.</p>
+          <div class="release-actions">
+            <a href="https://open.spotify.com/artist/4cQa4Ys2KmhkOLBs4VK7g3" target="_blank" rel="noopener" class="btn btn-gold">Listen on Spotify</a>
+            <a href="https://www.youtube.com/@LunaSolTheSupernovas" target="_blank" rel="noopener" class="btn btn-outline">Watch on YouTube</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About / Meet the Band -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">Meet the Supernovas</h2>
+        <p class="section-intro">Forged in rebellion and cosmic fire. What began between Luna and Sol at the Nowhere Bar has grown into a six-member force that fuels every journey across the SHD Studios universes.</p>
+
+        <div class="band-grid">
+          <article class="member-card">
+            <div class="member-icon" style="--accent: #663399">✨</div>
+            <h3>Luna</h3>
+            <p class="role">Vocals</p>
+            <p>A voice that resonates like starlight, connecting souls across galaxies.</p>
+          </article>
+          <article class="member-card">
+            <div class="member-icon" style="--accent: #ffd700">🔥</div>
+            <h3>Sol</h3>
+            <p class="role">Guitar</p>
+            <p>A charismatic guitarist who brings fire to every performance, igniting the stage with celestial energy.</p>
+          </article>
+          <article class="member-card">
+            <div class="member-icon" style="--accent: #c0c0c0">🌑</div>
+            <h3>Nova</h3>
+            <p class="role">Bass</p>
+            <p>The enigmatic bassist, anchoring the sound with the alluring mystery of the universe.</p>
+          </article>
+          <article class="member-card">
+            <div class="member-icon" style="--accent: #31afbc">🌈</div>
+            <h3>Spectra</h3>
+            <p class="role">Keys</p>
+            <p>Flamboyant on the keys, painting radiant soundscapes with every note.</p>
+          </article>
+          <article class="member-card">
+            <div class="member-icon" style="--accent: #bc3434">⚡</div>
+            <h3>Pulse</h3>
+            <p class="role">Drums</p>
+            <p>A powerhouse drummer, infusing every beat with raw, electrifying cosmic energy.</p>
+          </article>
+          <article class="member-card">
+            <div class="member-icon" style="--accent: #ffd700">🌟</div>
+            <h3>Quasar</h3>
+            <p class="role">Rap / Vocals</p>
+            <p>Our cosmic rap phenomenon, lighting up the universe with rich Brooklyn sound — on stage, in comics, and across the stars.</p>
+          </article>
+        </div>
+
+        <div class="about-note">
+          <p><strong>Lyrics written by humans. Performed by AI.</strong> Together they create a sonic universe that transcends time and space — blending genres and eras into a musical experience unlike any other.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Music / Discography -->
+    <section id="music" class="music">
+      <div class="container">
+        <h2 class="section-title">The Sonic Universe</h2>
+        <p class="section-intro">Rock operas, anthems of defiance, and soundtracks that power the multiverse.</p>
+
+        <div class="albums-grid">
+          <article class="album-card featured">
+            <div class="album-meta">
+              <span class="year">2026</span>
+              <span class="type">Single</span>
+            </div>
+            <h3>Jupiter's Debt on a Scarlet Sun</h3>
+            <p>(What Their Love Had Won)</p>
+          </article>
+          <article class="album-card">
+            <div class="album-meta">
+              <span class="year">2025</span>
+              <span class="type">Album</span>
+            </div>
+            <h3>Cosmic Cadence Remastered</h3>
+            <p>11 tracks of pure celestial power</p>
+          </article>
+          <article class="album-card">
+            <div class="album-meta">
+              <span class="year">2025</span>
+              <span class="type">Soundtrack</span>
+            </div>
+            <h3>This Is Our Rebellion</h3>
+            <p>Andromeda Legacy Unchained</p>
+          </article>
+          <article class="album-card">
+            <div class="album-meta">
+              <span class="year">2025</span>
+              <span class="type">Soundtrack</span>
+            </div>
+            <h3>Love Immortal</h3>
+            <p>The Venus & Adonis Saga</p>
+          </article>
+          <article class="album-card">
+            <div class="album-meta">
+              <span class="year">2025</span>
+              <span class="type">Soundtrack</span>
+            </div>
+            <h3>Neptune & Ulysses</h3>
+            <p>The Epic Battle for Legacy</p>
+          </article>
+          <article class="album-card">
+            <div class="album-meta">
+              <span class="year">2025</span>
+              <span class="type">Single</span>
+            </div>
+            <h3>Tangled in the Game</h3>
+            <p>Hypnotic pop-dance anthem</p>
+          </article>
+        </div>
+
+        <div class="music-cta">
+          <a href="https://open.spotify.com/artist/4cQa4Ys2KmhkOLBs4VK7g3" target="_blank" rel="noopener" class="btn btn-primary">Full Discography on Spotify</a>
+          <a href="https://www.youtube.com/@LunaSolTheSupernovas/releases" target="_blank" rel="noopener" class="btn btn-outline">YouTube Releases</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portal to Nowhere -->
+    <section id="portal" class="portal">
+      <div class="container">
+        <div class="portal-content">
+          <span class="event-label">SHD Studios Presents</span>
+          <h2>Portal to Nowhere</h2>
+          <p class="event-date">Labor Day Weekend 2026</p>
+          <p class="event-desc">The virtual rock concert experience the multiverse has been waiting for. Original music, unforgettable performances, and a cinematic journey through the Nowhere Bar in the New Mexico desert. Featuring Luna Sol & The Supernovas + special guest Katya Volkova.</p>
+          <ul class="event-highlights">
+            <li>Full cinematic virtual concert</li>
+            <li>Exclusive high-resolution album art & poster</li>
+            <li>Behind-the-scenes making of the stage</li>
+            <li>Live the rebellion from anywhere in the universe</li>
+          </ul>
+          <div class="portal-ctas">
+            <a href="https://www.youtube.com/@LunaSolTheSupernovas" target="_blank" rel="noopener" class="btn btn-gold">Watch Teasers</a>
+            <a href="https://linktr.ee/spacehistorydesigns" target="_blank" rel="noopener" class="btn btn-outline">Get Updates</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Merch / Store -->
+    <section id="merch" class="merch">
+      <div class="container">
+        <h2 class="section-title">Wear the Rebellion</h2>
+        <p class="section-intro">Official Portal to Nowhere tees, hoodies, phone cases, and more from SHD Studios.</p>
+        <div class="merch-grid">
+          <div class="merch-card">
+            <div class="merch-placeholder">🎸</div>
+            <h3>Portal to Nowhere Tees</h3>
+            <p>Sci-fi rock festival graphics</p>
+          </div>
+          <div class="merch-card">
+            <div class="merch-placeholder">🔥</div>
+            <h3>We Answered with Fire</h3>
+            <p>Hoodies & limited drops</p>
+          </div>
+          <div class="merch-card">
+            <div class="merch-placeholder">📱</div>
+            <h3>Cosmic Phone Cases</h3>
+            <p>Nowhere Bar editions</p>
+          </div>
+        </div>
+        <div class="merch-cta">
+          <a href="https://linktr.ee/spacehistorydesigns" target="_blank" rel="noopener" class="btn btn-primary">Shop the Collection</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Connect -->
+    <section id="connect" class="connect">
+      <div class="container">
+        <h2 class="section-title">Join the Supernovas</h2>
+        <p class="section-intro">Every stream. Every follow. Every comment. You are the rebellion.</p>
+        <div class="social-grid">
+          <a href="https://www.youtube.com/@LunaSolTheSupernovas" target="_blank" rel="noopener" class="social-card youtube">
+            <span class="social-icon">▶</span>
+            <span>YouTube</span>
+          </a>
+          <a href="https://open.spotify.com/artist/4cQa4Ys2KmhkOLBs4VK7g3" target="_blank" rel="noopener" class="social-card spotify">
+            <span class="social-icon">♪</span>
+            <span>Spotify</span>
+          </a>
+          <a href="https://www.facebook.com/LunaSolSupernovas/" target="_blank" rel="noopener" class="social-card facebook">
+            <span class="social-icon">f</span>
+            <span>Facebook</span>
+          </a>
+          <a href="https://linktr.ee/spacehistorydesigns" target="_blank" rel="noopener" class="social-card linktree">
+            <span class="social-icon">◎</span>
+            <span>All Links</span>
+          </a>
+        </div>
+        <p class="connect-note">Part of <strong>SHD Studios</strong> — Books • Music • Video • Comics<br>Legacy of Legends • Guardians of Aeternum • UFO Chronicles • Rise of the Silver Spirit</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <img src="assets/logo.jpg" alt="" class="footer-logo" />
+      <p>© 2026 Luna Sol & The Supernovas / SHD Studios. All rights reserved.</p>
+      <p class="footer-tag">One campaign. One destination. One click.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
